@@ -1,0 +1,320 @@
+{
+  "contractName": "gldnfToken",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "hello",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"hello\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/gldnfToken.sol\":\"gldnfToken\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/gldnfToken.sol\":{\"keccak256\":\"0xc9747ef1fc7123a3e0d5a608829b74c893842d87f78de429cb0b99bb1db4e178\",\"urls\":[\"bzz-raw://98013f292fd5068ca4fa784c3a5857b8c788e9aad020c2e04984e9e13e112620\",\"dweb:/ipfs/QmVmMA47dDhhW3oWnQNuKBDod9BFde9RZKEEu7YTPxZbne\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5061011d806100206000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806319ff1d2114602d575b600080fd5b603360ab565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101560715780820151818401526020810190506058565b50505050905090810190601f168015609d5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60606040518060400160405280601081526020017f4772656574696e6773204f72696f6e210000000000000000000000000000000081525090509056fea265627a7a723158203c73bd3d90ffe9551853601b03645012146cdb93e39850282c5821dd3291664164736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806319ff1d2114602d575b600080fd5b603360ab565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101560715780820151818401526020810190506058565b50505050905090810190601f168015609d5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60606040518060400160405280601081526020017f4772656574696e6773204f72696f6e210000000000000000000000000000000081525090509056fea265627a7a723158203c73bd3d90ffe9551853601b03645012146cdb93e39850282c5821dd3291664164736f6c63430005100032",
+  "sourceMap": "27:256:4:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:256:4;;;;;;;",
+  "deployedSourceMap": "27:256:4:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:256:4;;;;;;;;;;;;;;;;;;;173:99;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;173:99:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;211:13;237:25;;;;;;;;;;;;;;;;;;;173:99;:::o",
+  "source": "pragma solidity 0.5.16;\r\n\r\ncontract gldnfToken {\r\n    // public: used for public use not private\r\n    // pure: doesn't do anything but what the function is asking for.\r\n    function hello() public pure returns (string memory) {\r\n        return \"Greetings Orion!\";\r\n\r\n    }\r\n\r\n    \r\n}\r\n\r\n",
+  "sourcePath": "C:\\Users\\desig\\Desktop\\gldnfLabs\\contracts\\gldnfToken.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/gldnfToken.sol",
+    "exportedSymbols": {
+      "gldnfToken": [
+        223
+      ]
+    },
+    "id": 224,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 214,
+        "literals": [
+          "solidity",
+          "0.5",
+          ".16"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:4"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 223,
+        "linearizedBaseContracts": [
+          223
+        ],
+        "name": "gldnfToken",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 221,
+              "nodeType": "Block",
+              "src": "226:46:4",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "hexValue": "4772656574696e6773204f72696f6e21",
+                    "id": 219,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "string",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "244:18:4",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_stringliteral_b07c7ce4dcd49bddde4fb01aff5ca205181f6fcf6d2952eb440943aa4e866562",
+                      "typeString": "literal_string \"Greetings Orion!\""
+                    },
+                    "value": "Greetings Orion!"
+                  },
+                  "functionReturnParameters": 218,
+                  "id": 220,
+                  "nodeType": "Return",
+                  "src": "237:25:4"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 222,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "hello",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 215,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "187:2:4"
+            },
+            "returnParameters": {
+              "id": 218,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 217,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 222,
+                  "src": "211:13:4",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 216,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "211:6:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "210:15:4"
+            },
+            "scope": 223,
+            "src": "173:99:4",
+            "stateMutability": "pure",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 224,
+        "src": "27:256:4"
+      }
+    ],
+    "src": "0:287:4"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/gldnfToken.sol",
+      "exportedSymbols": {
+        "gldnfToken": [
+          223
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "0.5",
+            ".16"
+          ]
+        },
+        "id": 214,
+        "name": "PragmaDirective",
+        "src": "0:23:4"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            223
+          ],
+          "name": "gldnfToken",
+          "scope": 224
+        },
+        "children": [
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "hello",
+              "scope": 223,
+              "stateMutability": "pure",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 215,
+                "name": "ParameterList",
+                "src": "187:2:4"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 222,
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "type": "string",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string"
+                        },
+                        "id": 216,
+                        "name": "ElementaryTypeName",
+                        "src": "211:6:4"
+                      }
+                    ],
+                    "id": 217,
+                    "name": "VariableDeclaration",
+                    "src": "211:13:4"
+                  }
+                ],
+                "id": 218,
+                "name": "ParameterList",
+                "src": "210:15:4"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 218
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "hexvalue": "4772656574696e6773204f72696f6e21",
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "subdenomination": null,
+                          "token": "string",
+                          "type": "literal_string \"Greetings Orion!\"",
+                          "value": "Greetings Orion!"
+                        },
+                        "id": 219,
+                        "name": "Literal",
+                        "src": "244:18:4"
+                      }
+                    ],
+                    "id": 220,
+                    "name": "Return",
+                    "src": "237:25:4"
+                  }
+                ],
+                "id": 221,
+                "name": "Block",
+                "src": "226:46:4"
+              }
+            ],
+            "id": 222,
+            "name": "FunctionDefinition",
+            "src": "173:99:4"
+          }
+        ],
+        "id": 223,
+        "name": "ContractDefinition",
+        "src": "27:256:4"
+      }
+    ],
+    "id": 224,
+    "name": "SourceUnit",
+    "src": "0:287:4"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x31b0f4F8Ae6a68c850cE74b08b361759691A532f",
+      "transactionHash": "0x7a83009d6d836080ff7e3a5ff0c55995e36de96007d756bca972178aa7c5f9e1"
+    }
+  },
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-10-05T11:00:19.369Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
